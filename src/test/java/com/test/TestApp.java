@@ -37,7 +37,7 @@ public class TestApp {
         try {
 
             Map<String, Object> maps = new HashMap<String, Object>();
-            maps.put("login", "1");
+            maps.put("login", "1.1.2");
             maps.put("name", "ma");
             String string = httpService.doGet("http://szagency.centaline.com.cn/account/GetUserListByLogin", maps);
             List<Map<String, Object>> collection = (List<Map<String, Object>>) JSONArray.toCollection(
