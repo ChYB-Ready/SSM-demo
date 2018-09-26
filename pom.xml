@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>cn.itcast.httpclient</groupId>
 	<artifactId>itcast-httpclient</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.1.1-SNAPSHOT</version>
 
 	<!-- 集中定义依赖版本号 -->
 	<properties>
